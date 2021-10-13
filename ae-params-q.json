@@ -1,5 +1,7 @@
 {
-    "flags": "-Phori",
+    "_comment": "Finds URL parameters without printing file name",
+
+    "flags": "-Phoria",
     "patterns" : [
         "(?<=\\?|&)(\\w)+=(\\w)+"
     ]
